@@ -1,9 +1,9 @@
-site_name: Wall of Shame Prototype
-site_url: https://observatorio.docs.p2pmodels.eu
+site_name: Wall of Shame Prototype Documentation
+site_url: https://observatorio.docs.p2pmodels.eu/home
 site_dir: ./build/
 
-repo_url: https://github.com/P2PModels/wallofshame-frontend
-repo_name: Wall of Shame - Frontend
+repo_url: https://github.com/P2PModels/wallofshame-docs
+repo_name: Wall of Shame - Documentation
 
 nav:
     - Home: home.md
@@ -13,7 +13,8 @@ nav:
           - Architecture: frontend/architecture.md
           - Login: frontend/login.md
           - Map: frontend/map.md
-          - Documentacion: frontend/docu.md
+          - Deployment: frontend/deployment.md
+          - Issues: frontend/issues.md
     - Backend:
           - Introduction: backend/intro.md
           - Architecture: backend/architecture.md
@@ -25,7 +26,7 @@ nav:
     - Blockchain:
           - Architecture: blockchain/architecture.md
           - 'How to add changes?': blockchain/editing-guide.md
-    - About: about.md
+    # - About: about.md
     - MetaDocs: metadocs.md
 
 theme:
