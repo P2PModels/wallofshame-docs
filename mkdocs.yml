@@ -6,7 +6,7 @@ repo_url: https://github.com/P2PModels/wallofshame-docs
 repo_name: Wall of Shame - Documentation
 
 nav:
-    - Home: home.md
+    - Home: index.md
     - Roadmap: roadmap.md
     - Frontend:
           - Introduction: frontend/intro.md
