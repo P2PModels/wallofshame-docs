@@ -1,5 +1,5 @@
 site_name: Wall of Shame Prototype Documentation
-site_url: https://observatorio.docs.p2pmodels.eu/home
+site_url: https://observatorio.docs.p2pmodels.eu/
 site_dir: ./build/
 
 repo_url: https://github.com/P2PModels/wallofshame-docs
