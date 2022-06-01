@@ -186,10 +186,10 @@ Confirmation shows the emails of authorized users
 #### Epic: Login
 
 !!! warning "As a user I want to authenticate myself so that I can report my case"
-     - A page to log in is accesible by the user through a CtA "Report your case".
-     - If the user provide incorrect credentials an error message will pop up.
-     - If the user provide correct credentials a session is started and the client receives a unique token for authorizarion.
-     - Once logged in the user will be redirected to the report form.
+     - 🟡 A page to log in is accesible by the user through a CtA "Report your case".
+     - 🟡 If the user provide incorrect credentials an error message will pop up.
+     - 🟡 If the user provide correct credentials a session is started and the client receives a unique token for authorizarion.
+     - 🟡 Once logged in the user will be redirected to the report form.
 
     **Specifications**:
 
@@ -205,23 +205,23 @@ Confirmation shows the emails of authorized users
     -   Incorrect password
 
 !!! warning "As a user I want to be able to register a profile so that I can report my case from a individual EOA without web3 knowledge"
-     - In the login page there is a "Register" link that redirects the user to a register page.
-     - The user is asked to fill the e-mail and password through a form.
-     - Once submited the user is redirected to the log in page and can now log in.
+     - 🟡 In the login page there is a "Register" link that redirects the user to a register page.
+     - 🟡 The user is asked to fill the e-mail and password through a form.
+     - 🟡 Once submited the user is redirected to the log in page and can now log in.
 
 !!! danger "As a user I want to be able to confirm my e-mail so that I nobody can register with my e-mail adress"
-     - From the register page, once the form is filled and submited, a prompt message asks the user to check they inbox.
-     - A e-mail template is filled with the user data and sent through an e-mail server.
-     - The user receives an e-mail with a link to confirm e-mail.
-     - When the user clicks the link a request is sent to the backend with a secret, onced validated the e-mail state changes to confirmed.
+     - 🟡 From the register page, once the form is filled and submited, a prompt message asks the user to check they inbox.
+     - 🟡 A e-mail template is filled with the user data and sent through an e-mail server.
+     - 🟡 The user receives an e-mail with a link to confirm e-mail.
+     - 🟡 When the user clicks the link a request is sent to the backend with a secret, onced validated the e-mail state changes to confirmed.
 
 !!! danger "As a user I want to be able to recover my password so that I can forget it and not loose all data"  
-     - In the login page there is a "Forgot password" link that redirects to a recovery page.
-     - The user is asked to fill the e-mail address through a form.
-     - An e-mail template is filled with user recovery password and sent trough an e-mail server.
-     - The user receives an e-mail and can log in with the temporary password.
-     - Once logged in the user is redirected to a change password view.
-     - The password of the user is updated and the user is redirected to the private area.
+     - 🟡 In the login page there is a "Forgot password" link that redirects to a recovery page.
+     - 🟡 The user is asked to fill the e-mail address through a form.
+     - 🟡 An e-mail template is filled with user recovery password and sent trough an e-mail server.
+     - 🟡 The user receives an e-mail and can log in with the temporary password.
+     - 🟡 Once logged in the user is redirected to a change password view.
+     - 🟡 The password of the user is updated and the user is redirected to the private area.
 
 !!! danger "As an organization we want to be able to register so that we can be notified if a user is asking for support"
 
