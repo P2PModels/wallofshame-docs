@@ -123,10 +123,10 @@ The current state of the project covers the following features:
 #### Epic: Case form
 
 !!! important "As a user I want to be able to provide the details of my case, including the company I work for and my context so I can give visibility to the specific problems of my proffesion and the social groups I belong to. " 
-    - There is an accesible form for the user. 
-    - The form has two parts: one for the information regarding the company and other for the information regarding the anonimyzed individual. 
-    - The form fields are validated and the user is notified if there is an invalid or empty field. 
-    - The form state is controlled.
+    - 🟢 There is an accesible form for the user. 
+    - 🟢 The form has two parts: one for the information regarding the company and other for the information regarding the anonimyzed individual. 
+    - 🟢 The form fields are validated and the user is notified if there is an invalid or empty field. 
+    - 🟢 The form state is controlled.
 
     **Specifications**:
 
@@ -170,8 +170,8 @@ Confirmation shows the emails of authorized users
 #### Epic: Case Registry
 
 !!! important "As a user I want to be able to register a case in the blockchain without previous knowledge so I can take advantage of the web3 ecosystem properties."  
-    - The submission of the case report form triggers a resolver in the backend to manage the sc interaction. 
-    - A tx with the data is sent from the backend server with the P2PModels EOA. 
+    - 🟢 The submission of the case report form triggers a resolver in the backend to manage the sc interaction. 
+    - 🟢 A tx with the data is sent from the backend server with the P2PModels EOA. 
     - 🟢 The information is stored in the smart contract.
 
 !!! important "As a user I want to be able to check the reported cases in an Ethereum explorer so I can assure that they can't be deleted." 
