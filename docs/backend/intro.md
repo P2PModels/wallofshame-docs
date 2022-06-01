@@ -2,7 +2,7 @@
 
 ## Instalation and setup (Ubuntu 20.04 LTS)
 
-In order to setup and run the front-end run the following commands:
+In order to setup and run the back-end run the following commands:
 
 ```
 $ git clone https://github.com/p2pmodels/wallofshame-backend

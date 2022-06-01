@@ -30,7 +30,7 @@ nav:
     - MetaDocs: metadocs.md
 
 theme:
-    name: material
+    name: 'mkdocs'
     favicon: assets/images/favicon.ico
     logo: assets/images/logo.png
     palette:
@@ -67,7 +67,8 @@ extra:
           name: P2PModels on Github
 
 plugins:
-    - git-revision-date
+  - git-revision-date-localized
+  
 
 markdown_extensions:
     - admonition
