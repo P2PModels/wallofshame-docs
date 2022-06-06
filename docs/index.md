@@ -20,7 +20,11 @@ The prototype has three main goals:
 
 ## Demo
 
-If you want to test the current version of the prototype check the [live demo](https://p2pmodels.eu).
+If you want to test the current version of the prototype check the [live demo](https://observatorio.p2pmodels.eu/).
+
+## Organization and project information
+
+If you want to know about the project and organization that developed it, ckeck the [P2P Models: the case of Smart](https://p2pmodels.eu/smart/).
 
 ## Prototype architecture
 
