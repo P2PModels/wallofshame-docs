@@ -47,6 +47,29 @@ sudo apt update
 sudo apt install python3-pip
 ```
 
+!!! warning "In case of having mac os, the apt command is not available." 
+
+    The alternative in this case is installing HomeBrew and using the brew command: 
+
+    - If you have macOS High Sierra, Sierra, El Capitan or posterior versions: 
+
+        ```
+        /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+        ```
+
+    - If you have MacOS Catalina, macOS Mojave or macOS Big Sur: 
+
+        ```
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+        ```
+
+    In both cases: 
+
+    ```
+    brew install python3 
+    ```
+
+
 ### Install MkDocs
 
 ```
