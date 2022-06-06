@@ -1,4 +1,4 @@
-# __Frontend__
+# 🎨✊📊 __Observatory of Spanish Artistic Precarity - Frontend__ 📊✊🎨
 
 ## Instalation and setup (tested on Ubuntu 20.04 LTS)
 
