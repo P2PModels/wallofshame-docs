@@ -56,28 +56,24 @@ const submit = (e, queryFcn, payload) => e => {
 
 ## Google Sheet for contanting organizations
 
-- We use sheet.best: allows us to take our Google Sheet data and export it as a JSON object. Conects with the google sheet.
-
-https://docs.google.com/spreadsheets/d/1w2J9DuzFHkUmBQ0zHHY51gPY7NRzmbdUV_VckSfhbSA/edit#gid=0
-The key is this link.
-
-We need to have the sheet public for everyone with the url.
+First, we tried to use sheet.best, which allows us to take our Google Sheet data and export it as a JSON object. It conects with the google sheet. The key is this [link](https://docs.google.com/spreadsheets/d/1w2J9DuzFHkUmBQ0zHHY51gPY7NRzmbdUV_VckSfhbSA/edit#gid=0). We needed to have the sheet public for everyone with the url.
 
 
-In order to render and filter by job and region: we use the function filter.
-We use includes in the jobs because we can have more than one job in the sheet for one organization. 
+In order to render and filter by job and region: we used the function filter.
+We used the function *includes* for the jobs because we can have more than one job in the sheet for the same organization. 
 
-- PROBLEM: sheet.best only allows 250 views. Change of plans.
 
-We followed the steps in https://dev.to/calvinpak/how-to-read-write-google-sheets-with-react-193l
-We created a google account in https://console.developers.google.com/ that will have access to the google sheet: 
+However, we had a problem: sheet.best only allows 250 views. Change of plans. We needed another way to achieve it.
+
+We followed the steps in this [web](https://dev.to/calvinpak/how-to-read-write-google-sheets-with-react-193l)
+We created a google account in the [GoogleCloudPlatform](https://console.developers.google.com/) that will have access to the google sheet: 
 p2psheet@p2psheet.iam.gserviceaccount.com 
+For this reason, we needed to share the sheet with this mail, so that it can have access to interact with the spreadsheet.
 
-
-npm install googleapis
+To install it, we used:
 npm install  google-spreadsheet
 
-We added the credentials to a .env in order to be private. Using the specific functions that connect the sheet with the code, we are able to obtain the different rows of the google sheet. 
+We added the credentials to a .env to privatize them. Using the specific functions that connect the sheet with the code, we are able to obtain the different rows of the google sheet. 
 
 In this sheet, the data should be written in a special way:
 
