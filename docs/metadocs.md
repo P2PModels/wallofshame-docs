@@ -1,6 +1,24 @@
 # Do you wonder how was this documentation created?
 
-In this section you can find the technologies used to generate the documentation of the project. And a quickstart to run the local server in your machine.
+In this section you can find the technologies used to generate the documentation of the project and its installation process. You'll also find quickstart to run the local server in your machine.
+
+## Dependencies
+
+- Python3.9+
+- Pip3
+- Markdown
+- Markdown-material
+- mkdocs-git-revision-date-plugin
+
+
+### Install Python3 and Pip
+
+If you're working with Ubuntu 20.04 Python3 its already installed with the OS. To install pip run:
+
+```
+sudo apt update
+sudo apt install python3-pip
+```
 
 ## MkDocs
 
@@ -8,15 +26,27 @@ In this section you can find the technologies used to generate the documentation
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
+```bash
+$ pip3 install mkdocs
+```
+
 ## Material theme for MkDocs
 
 Based in the Material Design principles and quiet a lot of customization settings available. For full documentation visit [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+
+```bash
+$ pip3 install mkdocs-material
+```
 
 ## Plugins
 
 > MkDocs plugin that displays the last revision date of the current page of the documentation based on Git. The revision date will be displayed in ISO format (YYYY-mm-dd). If you need other date formats check out timvink's fork
 
 [Repo link](https://github.com/zhaoterryy/mkdocs-git-revision-date-plugin)
+
+```bash
+$ pip3 install mkdocs-git-revision-date-plugin
+```
 
 ## Markdown extensions
 
@@ -37,21 +67,6 @@ If you have cloned the repo of the project and want to make changes to the docs 
 
 !!! warning "Steps provided for Ubuntu 20.04 or higher"
     If you are using a different OS the commands provided may vary, make sure you find the apropiate commands for your OS on the Internet.
-
-### Install Python3 and Pip
-
-If you're working with Ubuntu 20.04 Python3 its already installed with the OS. To install pip run:
-
-```
-sudo apt update
-sudo apt install python3-pip
-```
-
-### Install MkDocs
-
-```
-pip install mkdocs
-```
 
 ### Run the local server
 
