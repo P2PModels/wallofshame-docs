@@ -2,87 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://observatorio.docs.p2pmodels.eu/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-11-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://observatorio.docs.p2pmodels.eu/installation/</loc>
+         <lastmod>2022-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://observatorio.docs.p2pmodels.eu/metadocs/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://observatorio.docs.p2pmodels.eu/roadmap/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://observatorio.docs.p2pmodels.eu/backend/architecture/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://observatorio.docs.p2pmodels.eu/backend/deployment/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://observatorio.docs.p2pmodels.eu/backend/editing-guide/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://observatorio.docs.p2pmodels.eu/backend/intro/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://observatorio.docs.p2pmodels.eu/backend/api/cases/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://observatorio.docs.p2pmodels.eu/backend/api/users/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://observatorio.docs.p2pmodels.eu/blockchain/architecture/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://observatorio.docs.p2pmodels.eu/blockchain/editing-guide/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://observatorio.docs.p2pmodels.eu/frontend/architecture/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://observatorio.docs.p2pmodels.eu/frontend/deployment/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://observatorio.docs.p2pmodels.eu/frontend/intro/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://observatorio.docs.p2pmodels.eu/frontend/issues/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://observatorio.docs.p2pmodels.eu/frontend/login/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://observatorio.docs.p2pmodels.eu/frontend/map/</loc>
-         <lastmod>2022-05-23</lastmod>
+         <lastmod>2022-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
