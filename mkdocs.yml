@@ -6,70 +6,71 @@ repo_url: https://github.com/P2PModels/wallofshame-docs
 repo_name: Wall of Shame - Documentation
 
 nav:
-    - Home: index.md
-    - Roadmap: roadmap.md
-    - Frontend:
-          - Introduction: frontend/intro.md
-          - Architecture: frontend/architecture.md
-          - Login: frontend/login.md
-          - Map: frontend/map.md
-          - Deployment: frontend/deployment.md
-          - Issues: frontend/issues.md
-    - Backend:
-          - Introduction: backend/intro.md
-          - Architecture: backend/architecture.md
-          - API:
-                - Cases: backend/api/cases.md
-                - Users: backend/api/users.md
-          - Deployment: backend/deployment.md
-          - 'How to add changes?': backend/editing-guide.md
-    - Blockchain:
-          - Architecture: blockchain/architecture.md
-          - 'How to add changes?': blockchain/editing-guide.md
-    # - About: about.md
-    - MetaDocs: metadocs.md
+  - Home: index.md
+  - Install: installation.md
+  - Roadmap: roadmap.md
+  - Frontend:
+      - Introduction: frontend/intro.md
+      - Architecture: frontend/architecture.md
+      - Login: frontend/login.md
+      - Map: frontend/map.md
+      - Deployment: frontend/deployment.md
+      - Issues: frontend/issues.md
+  - Backend:
+      - Introduction: backend/intro.md
+      - Architecture: backend/architecture.md
+      - API:
+          - Cases: backend/api/cases.md
+          - Users: backend/api/users.md
+      - Deployment: backend/deployment.md
+      - "How to add changes?": backend/editing-guide.md
+  - Blockchain:
+      - Architecture: blockchain/architecture.md
+      - "How to add changes?": blockchain/editing-guide.md
+  # - About: about.md
+  - MetaDocs: metadocs.md
 
 theme:
-    name: material
-    favicon: assets/images/favicon.ico
-    logo: assets/images/logo.png
-    palette:
-        - media: '(prefers-color-scheme: light)'
-          scheme: default
-          primary: deep purple
-          accent: pink
-          toggle:
-              icon: material/toggle-switch-off-outline
-              name: Switch to dark mode
-        - media: '(prefers-color-scheme: dark)'
-          scheme: slate
-          primary: purple
-          accent: light blue
-          toggle:
-              icon: material/toggle-switch
-              name: Switch to light mode
+  name: material
+  favicon: assets/images/favicon.ico
+  logo: assets/images/logo.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: purple
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 
 features:
-    - header.autohide
+  - header.autohide
 
 extra:
-    social:
-        - icon: fontawesome/solid/mouse-pointer
-          link: https://p2pmodels.eu
-          name: P2PModels website
+  social:
+    - icon: fontawesome/solid/arrow-pointer
+      link: https://p2pmodels.eu
+      name: P2PModels website
 
-        - icon: fontawesome/brands/twitter
-          link: https://twitter.com/p2pmod
-          name: P2PModels on Twitter
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/p2pmod
+      name: P2PModels on Twitter
 
-        - icon: fontawesome/brands/github
-          link: https://github.com/P2PModels
-          name: P2PModels on Github
+    - icon: fontawesome/brands/github
+      link: https://github.com/P2PModels
+      name: P2PModels on Github
 
 plugins:
-    - git-revision-date
+  - git-revision-date
 
 markdown_extensions:
-    - admonition
-    - toc:
-          permalink: true
+  - admonition
+  - toc:
+      permalink: true
