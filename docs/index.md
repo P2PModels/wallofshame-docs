@@ -3,6 +3,8 @@
 <img src="/assets/images/Map.png" alt="Map screenshot">
 <img src="/assets/images/Dashboard.png" alt="Dashboard screenshot">
 
+!!! warning "Live documentation" 
+    - This documentation has been generated along the development process, therefore is no curated material. If some parts don't make sense refer to the code in the public repos.
 
 ## Introduction
 
@@ -20,7 +22,7 @@ The prototype has three main goals:
 
 ## Demo
 
-If you want to test the current version of the prototype check the [live demo](https://p2pmodels.eu).
+If you want to test the current version of the prototype check the [live demo](https://observatorio.p2pmodels.eu).
 
 ## Prototype architecture
 
